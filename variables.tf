@@ -3,7 +3,6 @@ variable "vault_address" {
   description = "Vault http(s) address"
 }
 
-
 variable "vault_token_secret_id" {
   type        = string
   description = "Id vault root token secret in AWS Secret Manager"
