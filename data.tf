@@ -12,14 +12,14 @@ data "aws_eks_cluster_auth" "eks_cluster_auth" {
 
 data "kubernetes_service_account" "vault_sa" {
   metadata {
-    name = var.vault_sa
+    name      = var.vault_sa
     namespace = var.namespace
   }
 }
 
 data "kubernetes_secret_v1" "vault_sa_token" {
   metadata {
-    name = data.kubernetes_service_account.vault_sa.secret[0].name
+    name      = data.kubernetes_service_account.vault_sa.secret[0].name
     namespace = var.namespace
   }
 }
