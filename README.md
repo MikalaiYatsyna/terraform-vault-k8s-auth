@@ -8,7 +8,7 @@ Terraform module to enable Kubernetes auth in Vault
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.7.5 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | 4.58.0 |
-| <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.18.1 |
+| <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.27.0 |
 | <a name="requirement_vault"></a> [vault](#requirement\_vault) | 3.14.0 |
 
 ## Providers
@@ -16,7 +16,7 @@ Terraform module to enable Kubernetes auth in Vault
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | 4.58.0 |
-| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.18.1 |
+| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.27.0 |
 | <a name="provider_vault"></a> [vault](#provider\_vault) | 3.14.0 |
 
 ## Modules
@@ -32,8 +32,8 @@ No modules.
 | [aws_eks_cluster.eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/4.58.0/docs/data-sources/eks_cluster) | data source |
 | [aws_eks_cluster_auth.eks_cluster_auth](https://registry.terraform.io/providers/hashicorp/aws/4.58.0/docs/data-sources/eks_cluster_auth) | data source |
 | [aws_secretsmanager_secret_version.root_token](https://registry.terraform.io/providers/hashicorp/aws/4.58.0/docs/data-sources/secretsmanager_secret_version) | data source |
-| [kubernetes_secret_v1.vault_sa_token](https://registry.terraform.io/providers/hashicorp/kubernetes/2.18.1/docs/data-sources/secret_v1) | data source |
-| [kubernetes_service_account.vault_sa](https://registry.terraform.io/providers/hashicorp/kubernetes/2.18.1/docs/data-sources/service_account) | data source |
+| [kubernetes_secret_v1.vault_sa_token](https://registry.terraform.io/providers/hashicorp/kubernetes/2.27.0/docs/data-sources/secret_v1) | data source |
+| [kubernetes_service_account.vault_sa](https://registry.terraform.io/providers/hashicorp/kubernetes/2.27.0/docs/data-sources/service_account) | data source |
 
 ## Inputs
 
