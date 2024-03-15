@@ -4,7 +4,12 @@ Terraform module to enable Kubernetes auth in Vault
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.7.5 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 4.58.0 |
+| <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.18.1 |
+| <a name="requirement_vault"></a> [vault](#requirement\_vault) | 3.14.0 |
 
 ## Providers
 
@@ -22,13 +27,13 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [vault_auth_backend.kubernetes](https://registry.terraform.io/providers/hashicorp/vault/latest/docs/resources/auth_backend) | resource |
-| [vault_kubernetes_auth_backend_config.kubernetes](https://registry.terraform.io/providers/hashicorp/vault/latest/docs/resources/kubernetes_auth_backend_config) | resource |
-| [aws_eks_cluster.eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_cluster) | data source |
-| [aws_eks_cluster_auth.eks_cluster_auth](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_cluster_auth) | data source |
-| [aws_secretsmanager_secret_version.root_token](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/secretsmanager_secret_version) | data source |
-| [kubernetes_secret_v1.vault_sa_token](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/data-sources/secret_v1) | data source |
-| [kubernetes_service_account.vault_sa](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/data-sources/service_account) | data source |
+| [vault_auth_backend.kubernetes](https://registry.terraform.io/providers/hashicorp/vault/3.14.0/docs/resources/auth_backend) | resource |
+| [vault_kubernetes_auth_backend_config.kubernetes](https://registry.terraform.io/providers/hashicorp/vault/3.14.0/docs/resources/kubernetes_auth_backend_config) | resource |
+| [aws_eks_cluster.eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/4.58.0/docs/data-sources/eks_cluster) | data source |
+| [aws_eks_cluster_auth.eks_cluster_auth](https://registry.terraform.io/providers/hashicorp/aws/4.58.0/docs/data-sources/eks_cluster_auth) | data source |
+| [aws_secretsmanager_secret_version.root_token](https://registry.terraform.io/providers/hashicorp/aws/4.58.0/docs/data-sources/secretsmanager_secret_version) | data source |
+| [kubernetes_secret_v1.vault_sa_token](https://registry.terraform.io/providers/hashicorp/kubernetes/2.18.1/docs/data-sources/secret_v1) | data source |
+| [kubernetes_service_account.vault_sa](https://registry.terraform.io/providers/hashicorp/kubernetes/2.18.1/docs/data-sources/service_account) | data source |
 
 ## Inputs
 
