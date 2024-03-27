@@ -6,7 +6,7 @@ terraform {
       source  = "hashicorp/aws"
     }
     vault = {
-      version = "4.1.0"
+      version = "4.2.0"
       source  = "hashicorp/vault"
     }
     kubernetes = {
