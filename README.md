@@ -7,7 +7,7 @@ Terraform module to enable Kubernetes auth in Vault
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.7.5 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.10.3 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.42.0 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.27.0 |
 | <a name="requirement_vault"></a> [vault](#requirement\_vault) | 4.1.0 |
