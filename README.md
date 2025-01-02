@@ -10,14 +10,14 @@ Terraform module to enable Kubernetes auth in Vault
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.10.3 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.42.0 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.27.0 |
-| <a name="requirement_vault"></a> [vault](#requirement\_vault) | 4.1.0 |
+| <a name="requirement_vault"></a> [vault](#requirement\_vault) | 4.5.0 |
 ## Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | 5.42.0 |
 | <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.27.0 |
-| <a name="provider_vault"></a> [vault](#provider\_vault) | 4.1.0 |
+| <a name="provider_vault"></a> [vault](#provider\_vault) | 4.5.0 |
 ## Modules
 
 No modules.
@@ -25,8 +25,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [vault_auth_backend.kubernetes](https://registry.terraform.io/providers/hashicorp/vault/4.1.0/docs/resources/auth_backend) | resource |
-| [vault_kubernetes_auth_backend_config.kubernetes](https://registry.terraform.io/providers/hashicorp/vault/4.1.0/docs/resources/kubernetes_auth_backend_config) | resource |
+| [vault_auth_backend.kubernetes](https://registry.terraform.io/providers/hashicorp/vault/4.5.0/docs/resources/auth_backend) | resource |
+| [vault_kubernetes_auth_backend_config.kubernetes](https://registry.terraform.io/providers/hashicorp/vault/4.5.0/docs/resources/kubernetes_auth_backend_config) | resource |
 | [aws_eks_cluster.eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/5.42.0/docs/data-sources/eks_cluster) | data source |
 | [aws_eks_cluster_auth.eks_cluster_auth](https://registry.terraform.io/providers/hashicorp/aws/5.42.0/docs/data-sources/eks_cluster_auth) | data source |
 | [aws_secretsmanager_secret_version.root_token](https://registry.terraform.io/providers/hashicorp/aws/5.42.0/docs/data-sources/secretsmanager_secret_version) | data source |
